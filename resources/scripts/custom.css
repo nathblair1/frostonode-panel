@@ -1,0 +1,20 @@
+/* Force purple accents where Tailwind doesn't reach */
+#app {
+  background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+}
+
+/* Scrollbar purple */
+::-webkit-scrollbar-thumb {
+  background: #7c3aed;
+}
+
+/* Selection highlight */
+::selection {
+  background: rgba(139, 92, 246, 0.3);
+  color: white;
+}
+
+/* Loading spinner */
+.spinner {
+  border-top-color: #a855f7 !important;
+}
